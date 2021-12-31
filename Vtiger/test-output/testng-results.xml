@@ -5,42 +5,42 @@
       <![CDATA[Contact Created...Test script pass...]]>
     </line>
   </reporter-output>
-  <suite started-at="2021-12-28T14:16:01 IST" name="Default suite" finished-at="2021-12-28T14:16:21 IST" duration-ms="20403">
+  <suite started-at="2021-12-29T23:20:40 IST" name="Default suite" finished-at="2021-12-29T23:21:09 IST" duration-ms="29283">
     <groups>
       <group name="SmokeSuit">
-        <method signature="CreateContactTest.createContactTest()[pri:0, instance:com.crm.autodesk.contacttest.CreateContactTest@72f926e6]" name="createContactTest" class="com.crm.autodesk.contacttest.CreateContactTest"/>
+        <method signature="CreateContactTest.createContactTest()[pri:0, instance:com.crm.autodesk.contacttest.CreateContactTest@481a996b]" name="createContactTest" class="com.crm.autodesk.contacttest.CreateContactTest"/>
       </group> <!-- SmokeSuit -->
     </groups>
-    <test started-at="2021-12-28T14:16:01 IST" name="Default test" finished-at="2021-12-28T14:16:21 IST" duration-ms="20403">
+    <test started-at="2021-12-29T23:20:40 IST" name="Default test" finished-at="2021-12-29T23:21:09 IST" duration-ms="29283">
       <class name="com.crm.autodesk.contacttest.CreateContactTest">
-        <test-method is-config="true" signature="openDbConnection()[pri:0, instance:com.crm.autodesk.contacttest.CreateContactTest@72f926e6]" started-at="2021-12-28T14:16:01 IST" name="openDbConnection" finished-at="2021-12-28T14:16:01 IST" duration-ms="206" status="PASS">
+        <test-method is-config="true" signature="openDbConnection()[pri:0, instance:com.crm.autodesk.contacttest.CreateContactTest@481a996b]" started-at="2021-12-29T23:20:39 IST" name="openDbConnection" finished-at="2021-12-29T23:20:40 IST" duration-ms="206" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openDbConnection -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.crm.autodesk.contacttest.CreateContactTest@72f926e6]" started-at="2021-12-28T14:16:01 IST" name="launchBrowser" finished-at="2021-12-28T14:16:04 IST" duration-ms="3131" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.crm.autodesk.contacttest.CreateContactTest@481a996b]" started-at="2021-12-29T23:20:40 IST" name="launchBrowser" finished-at="2021-12-29T23:20:45 IST" duration-ms="5575" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="loginToApp()[pri:0, instance:com.crm.autodesk.contacttest.CreateContactTest@72f926e6]" started-at="2021-12-28T14:16:04 IST" name="loginToApp" finished-at="2021-12-28T14:16:08 IST" duration-ms="3445" status="PASS">
+        <test-method is-config="true" signature="loginToApp()[pri:0, instance:com.crm.autodesk.contacttest.CreateContactTest@481a996b]" started-at="2021-12-29T23:20:45 IST" name="loginToApp" finished-at="2021-12-29T23:20:51 IST" duration-ms="5765" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToApp -->
-        <test-method signature="createContactTest()[pri:0, instance:com.crm.autodesk.contacttest.CreateContactTest@72f926e6]" started-at="2021-12-28T14:16:08 IST" name="createContactTest" finished-at="2021-12-28T14:16:19 IST" duration-ms="11555" status="PASS">
+        <test-method signature="createContactTest()[pri:0, instance:com.crm.autodesk.contacttest.CreateContactTest@481a996b]" started-at="2021-12-29T23:20:51 IST" name="createContactTest" finished-at="2021-12-29T23:21:07 IST" duration-ms="16148" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Contact Created...Test script pass...]]>
             </line>
           </reporter-output>
         </test-method> <!-- createContactTest -->
-        <test-method is-config="true" signature="logOutApp()[pri:0, instance:com.crm.autodesk.contacttest.CreateContactTest@72f926e6]" started-at="2021-12-28T14:16:19 IST" name="logOutApp" finished-at="2021-12-28T14:16:21 IST" duration-ms="1872" status="PASS">
+        <test-method is-config="true" signature="logOutApp()[pri:0, instance:com.crm.autodesk.contacttest.CreateContactTest@481a996b]" started-at="2021-12-29T23:21:07 IST" name="logOutApp" finished-at="2021-12-29T23:21:09 IST" duration-ms="1404" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logOutApp -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.crm.autodesk.contacttest.CreateContactTest@72f926e6]" started-at="2021-12-28T14:16:21 IST" name="closeBrowser" finished-at="2021-12-28T14:16:21 IST" duration-ms="346" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.crm.autodesk.contacttest.CreateContactTest@481a996b]" started-at="2021-12-29T23:21:09 IST" name="closeBrowser" finished-at="2021-12-29T23:21:09 IST" duration-ms="338" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="closeDbConnection()[pri:0, instance:com.crm.autodesk.contacttest.CreateContactTest@72f926e6]" started-at="2021-12-28T14:16:22 IST" name="closeDbConnection" finished-at="2021-12-28T14:16:22 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="closeDbConnection()[pri:0, instance:com.crm.autodesk.contacttest.CreateContactTest@481a996b]" started-at="2021-12-29T23:21:09 IST" name="closeDbConnection" finished-at="2021-12-29T23:21:09 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDbConnection -->
