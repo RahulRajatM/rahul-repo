@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="practice.CreateCustomerTest">
+      <class name="practice.TimeOutAttribute">
         <methods>
-          <include name="createCustomerTest"/>
+          <include name="click"/>
         </methods>
-      </class> <!-- practice.CreateCustomerTest -->
+      </class> <!-- practice.TimeOutAttribute -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,5 +1,6 @@
 package com.crm.autodest.orgtest;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.crm.autodesk.ObjectRepository.CreateNewOrganizationPage;
@@ -36,13 +37,11 @@ public class CreateOrganisationtest  extends BaseClass
 		String text=orgInfo.OrgHeaderInfo();
 
 		//varify result
-		if(text.contains("Ty_org"))
-		{
-			System.out.println("new organization created successfully...so pass");
-		}
-		else
-		{
-			System.out.println("Error");
-		}
+		boolean actualResult = text.contains("AutoDesk");
+		Assert.assertEquals(actualResult, true);
+
+		System.out.println("new organization created successfully...so pass");
+
+
 	}
 }

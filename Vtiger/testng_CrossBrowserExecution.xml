@@ -13,9 +13,9 @@
 	<test thread-count="2" parallel="tests" name="Test2">
 		<parameter name="browser" value="firefox" />
 		<classes>
-			<class name="com.crm.autodesk.producttest.CreateProductsTest" />
+			<class name="com.crm.autodesk.contacttest.CreateContactTest" />
 			<class
-				name="com.crm.autodesk.producttest.CreateProductWithVendorTest" />
+				name="com.crm.autodesk.contacttest.CreateContactWithOrganizationTest" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
