@@ -52,9 +52,9 @@ public class CreateContactWithOrganizationTest extends BaseClass
 
 		sa.assertAll();
 	}
-	/*@Test
+	@Test
 	public void createOrgDemo()
 	{
 		System.out.println("Orgnization created...");
-	}*/
+	}
 }
